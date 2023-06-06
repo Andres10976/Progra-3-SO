@@ -1,0 +1,75 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="LedMatrix" CircId="LedMatrix-3" mainComp="false" Show_id="false" Show_Val="false" Pos="964,196" rotation="0" hflip="1" vflip="1" label="LedMatrix-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="8 _Leds" Cols="8 _Leds" Color="Yellow" Vertical_Pins="false" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+
+<item itemtype="KeyPad" CircId="KeyPad-4" mainComp="false" Show_id="false" Show_Val="false" Pos="712,264" rotation="0" hflip="1" vflip="1" label="KeyPad-4" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4 _Buttons" Cols="3 _Buttons" Key_Labels="123456789*0#" />
+
+<item itemtype="Subcircuit" CircId="Mega-9" mainComp="false" Show_id="true" Show_Val="false" Pos="804,292" rotation="0" hflip="1" vflip="1" label="Mega-9" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="9_mega2560-63" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="9_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Ground" CircId="Ground-54" mainComp="false" Show_id="false" Show_Val="false" Pos="708,564" rotation="0" hflip="1" vflip="1" label="Ground-54" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="SerialPort" CircId="SerialPort-56" mainComp="false" Show_id="false" Show_Val="false" Pos="608,408" rotation="-360" hflip="1" vflip="1" label="SerialPort-56" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Port="COM5" Baudrate="9600 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="828,316" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="836,316" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="KeyPad-4-Pin2" endpinid="Mega-9-23" pointList="760,304,820,304,820,308" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="KeyPad-4-Pin3" endpinid="Mega-9-22" pointList="760,320,820,320,820,316" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="KeyPad-4-Pin6" endpinid="Node-31-0" pointList="744,336,828,336,828,316" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="KeyPad-4-Pin5" endpinid="Node-31-1" pointList="728,336,828,336,828,316" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-31-2" endpinid="Mega-9-25" pointList="828,316,828,308" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="KeyPad-4-Pin4" endpinid="Node-35-0" pointList="712,336,836,336,836,316" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="LedMatrix-3-pinRow0" endpinid="Node-35-1" pointList="948,196,836,196,836,316" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Node-35-2" endpinid="Mega-9-27" pointList="836,316,836,308" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="LedMatrix-3-pinRow1" endpinid="Mega-9-29" pointList="948,204,844,204,844,308" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="LedMatrix-3-pinRow2" endpinid="Mega-9-28" pointList="948,212,844,212,844,316" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="LedMatrix-3-pinRow3" endpinid="Mega-9-31" pointList="948,220,852,220,852,308" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="LedMatrix-3-pinRow4" endpinid="Mega-9-30" pointList="948,228,852,228,852,316" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="LedMatrix-3-pinRow5" endpinid="Mega-9-33" pointList="948,236,860,236,860,308" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="LedMatrix-3-pinRow6" endpinid="Mega-9-32" pointList="948,244,860,244,860,316" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="LedMatrix-3-pinRow7" endpinid="Mega-9-35" pointList="948,252,868,252,868,308" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="LedMatrix-3-pinCol0" endpinid="Mega-9-34" pointList="964,268,868,268,868,316" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="LedMatrix-3-pinCol1" endpinid="Mega-9-37" pointList="972,268,876,268,876,308" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="LedMatrix-3-pinCol2" endpinid="Mega-9-36" pointList="980,268,876,268,876,316" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="LedMatrix-3-pinCol3" endpinid="Mega-9-39" pointList="988,268,884,268,884,308" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="LedMatrix-3-pinCol4" endpinid="Mega-9-38" pointList="996,268,884,268,884,316" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="LedMatrix-3-pinCol5" endpinid="Mega-9-41" pointList="1004,268,892,268,892,308" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="LedMatrix-3-pinCol6" endpinid="Mega-9-40" pointList="1012,268,892,268,892,316" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="LedMatrix-3-pinCol7" endpinid="Mega-9-43" pointList="1020,268,900,268,900,308" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Mega-9-GND0" endpinid="Ground-54-Gnd" pointList="812,532,708,532,708,548" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="SerialPort-56-pin0" endpinid="Mega-9-0" pointList="568,400,812,400,812,412" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="SerialPort-56-pin1" endpinid="Mega-9-1" pointList="568,416,812,416,812,420" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="KeyPad-4-Pin0" endpinid="Mega-9-5V02" pointList="760,272,812,272,812,308" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="KeyPad-4-Pin1" endpinid="Mega-9-5V01" pointList="760,288,760,316,812,316" />
+
+</circuit>

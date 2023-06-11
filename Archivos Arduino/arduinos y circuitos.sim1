@@ -1,0 +1,39 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="KeyPad" CircId="KeyPad-4" mainComp="false" Show_id="false" Show_Val="false" Pos="1004,380" rotation="0" hflip="1" vflip="1" label="KeyPad-4" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4 _Buttons" Cols="3 _Buttons" Key_Labels="123456789*0#" />
+
+<item itemtype="Subcircuit" CircId="Mega-9" mainComp="false" Show_id="true" Show_Val="false" Pos="796,280" rotation="0" hflip="1" vflip="1" label="Mega-9" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="9_mega2560-63" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="9_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="sketch_jun6a.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Ground" CircId="Ground-54" mainComp="false" Show_id="false" Show_Val="false" Pos="708,564" rotation="0" hflip="1" vflip="1" label="Ground-54" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="SerialPort" CircId="SerialPort-56" mainComp="false" Show_id="false" Show_Val="false" Pos="608,408" rotation="-360" hflip="1" vflip="1" label="SerialPort-56" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Port="COM5" Baudrate="9600 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" />
+
+<item itemtype="Ssd1306" CircId="Ssd1306-84" mainComp="false" Show_id="true" Show_Val="false" Pos="704,280" rotation="0" hflip="1" vflip="1" label="Ssd1306-84" idLabPos="-32,-60" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="White" Control_Code="60" Frequency="100 _KHz" />
+
+<item itemtype="Connector" uid="connector-85" startpinid="Mega-9-GND0" endpinid="Ground-54-Gnd" pointList="804,520,708,520,708,548" />
+
+<item itemtype="Connector" uid="connector-86" startpinid="Ssd1306-84-PinSda" endpinid="Mega-9-20" pointList="664,328,664,336,804,336" />
+
+<item itemtype="Connector" uid="connector-87" startpinid="Ssd1306-84-PinSck" endpinid="Mega-9-21" pointList="656,328,804,328" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="SerialPort-56-pin0" endpinid="Mega-9-0" pointList="568,400,568,388,740,388,740,400,804,400" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="SerialPort-56-pin1" endpinid="Mega-9-1" pointList="568,416,568,428,740,428,740,408,804,408" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="KeyPad-4-Pin6" endpinid="Mega-9-A2" pointList="1036,452,1036,468,964,468,964,432,948,432" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="KeyPad-4-Pin5" endpinid="Mega-9-A1" pointList="1020,452,1020,460,972,460,972,440,948,440" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="KeyPad-4-Pin4" endpinid="Mega-9-A0" pointList="1004,452,948,452,948,448" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="KeyPad-4-Pin3" endpinid="Mega-9-6" pointList="1052,436,1092,436,1092,332,864,332,864,448,804,448" />
+
+<item itemtype="Connector" uid="Connector-98" startpinid="KeyPad-4-Pin2" endpinid="Mega-9-5" pointList="1052,420,1084,420,1084,340,872,340,872,440,804,440" />
+
+<item itemtype="Connector" uid="Connector-99" startpinid="KeyPad-4-Pin1" endpinid="Mega-9-4" pointList="1052,404,1076,404,1076,348,880,348,880,432,804,432" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="KeyPad-4-Pin0" endpinid="Mega-9-3" pointList="1052,388,1068,388,1068,356,888,356,888,424,804,424" />
+
+</circuit>

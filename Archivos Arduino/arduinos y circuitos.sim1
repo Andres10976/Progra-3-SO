@@ -18,22 +18,22 @@
 
 <item itemtype="Connector" uid="connector-87" startpinid="Ssd1306-84-PinSck" endpinid="Mega-9-21" pointList="656,328,804,328" />
 
-<item itemtype="Connector" uid="connector-89" startpinid="SerialPort-56-pin0" endpinid="Mega-9-0" pointList="568,400,568,388,740,388,740,400,804,400" />
+<item itemtype="Connector" uid="connector-88" startpinid="SerialPort-56-pin0" endpinid="Mega-9-0" pointList="568,400,568,388,740,388,740,400,804,400" />
 
-<item itemtype="Connector" uid="connector-90" startpinid="SerialPort-56-pin1" endpinid="Mega-9-1" pointList="568,416,568,428,740,428,740,408,804,408" />
+<item itemtype="Connector" uid="connector-89" startpinid="SerialPort-56-pin1" endpinid="Mega-9-1" pointList="568,416,568,428,740,428,740,408,804,408" />
 
-<item itemtype="Connector" uid="connector-91" startpinid="KeyPad-4-Pin6" endpinid="Mega-9-A2" pointList="1036,452,1036,468,964,468,964,432,948,432" />
+<item itemtype="Connector" uid="connector-90" startpinid="KeyPad-4-Pin6" endpinid="Mega-9-A2" pointList="1036,452,1036,468,964,468,964,432,948,432" />
 
-<item itemtype="Connector" uid="connector-92" startpinid="KeyPad-4-Pin5" endpinid="Mega-9-A1" pointList="1020,452,1020,460,972,460,972,440,948,440" />
+<item itemtype="Connector" uid="connector-91" startpinid="KeyPad-4-Pin5" endpinid="Mega-9-A1" pointList="1020,452,1020,460,972,460,972,440,948,440" />
 
-<item itemtype="Connector" uid="connector-93" startpinid="KeyPad-4-Pin4" endpinid="Mega-9-A0" pointList="1004,452,948,452,948,448" />
+<item itemtype="Connector" uid="connector-92" startpinid="KeyPad-4-Pin4" endpinid="Mega-9-A0" pointList="1004,452,948,452,948,448" />
 
-<item itemtype="Connector" uid="Connector-94" startpinid="KeyPad-4-Pin3" endpinid="Mega-9-6" pointList="1052,436,1092,436,1092,332,864,332,864,448,804,448" />
+<item itemtype="Connector" uid="connector-93" startpinid="KeyPad-4-Pin3" endpinid="Mega-9-6" pointList="1052,436,1092,436,1092,332,864,332,864,448,804,448" />
 
-<item itemtype="Connector" uid="Connector-98" startpinid="KeyPad-4-Pin2" endpinid="Mega-9-5" pointList="1052,420,1084,420,1084,340,872,340,872,440,804,440" />
+<item itemtype="Connector" uid="connector-94" startpinid="KeyPad-4-Pin2" endpinid="Mega-9-5" pointList="1052,420,1084,420,1084,340,872,340,872,440,804,440" />
 
-<item itemtype="Connector" uid="Connector-99" startpinid="KeyPad-4-Pin1" endpinid="Mega-9-4" pointList="1052,404,1076,404,1076,348,880,348,880,432,804,432" />
+<item itemtype="Connector" uid="connector-95" startpinid="KeyPad-4-Pin0" endpinid="Mega-9-3" pointList="1052,388,1068,388,1068,356,888,356,888,424,804,424" />
 
-<item itemtype="Connector" uid="Connector-100" startpinid="KeyPad-4-Pin0" endpinid="Mega-9-3" pointList="1052,388,1068,388,1068,356,888,356,888,424,804,424" />
+<item itemtype="Connector" uid="connector-96" startpinid="KeyPad-4-Pin1" endpinid="Mega-9-4" pointList="1052,404,1076,404,1076,348,880,348,880,432,804,432" />
 
 </circuit>

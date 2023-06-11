@@ -54,10 +54,13 @@ void loop() {
     display.println(key);
     display.display();
   }
+<<<<<<< HEAD
 
   if (Serial.available() > 0) {
     String incomingValue = Serial.readString();
     display.println(incomingValue);
     display.display();
   }
+=======
+>>>>>>> e2654fc38c0d0131b025ba488f6b7adb5a9df3cc
 }
